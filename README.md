@@ -1,4 +1,3 @@
-# MiSiiaApp
 #Nombre de la aplicacion
 *MiSiia App.
 Web app con nodejs, y javascript como 
