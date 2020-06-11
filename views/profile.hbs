@@ -1,0 +1,61 @@
+<div class="container p-4">
+    <div class="row">
+       <div class="container ">
+                    <h1>MATERIAS DISPONIBLES</h1>
+                    <form action="/profile" method="POST">
+                         <div class="row">
+                                <div class="col-md-12 mt-auto">
+                                    <button  type="submit" class="btn btn-success">ALTA</button>
+                                </div>
+                         </div>
+                       <div class="row">
+                          <div class="col-md-12">
+                            <table class="table table-bordered table-hover">
+                            <thead>
+                                <tr>
+                                   <td>Clave maestro</td>
+                                   <td>Nombre materia</td>
+                                   <td>grupo</td>
+                                   <td>horario</td>
+                                   <td>Aula</td>
+                                   <td>Clave carrera</td>
+                                   <td>Acciones</td>
+                                </tr>
+                                </thead>
+                                <tbody>
+                               {{#each materia}}
+                                    <tr>
+                                          <td>
+                                              {{cve_maestro}}
+                                          </td>
+                                          <td>
+                                              {{nombre_mat}}
+                                          </td>
+                                          <td>
+                                              {{grupo}}
+                                          </td>
+                                          <td>
+                                             {{horario}}
+                                          </td>
+                                          <td>
+                                              {{aula}}
+                                          </td>
+                                          <td>
+                                              {{cve_carrera}}
+                                          </td>
+                                          <td>
+                                          <div class="form-group">
+                                                <div class="form-check">
+                                                  <input class="form-check-input" type="checkbox" name="{{cve_materia}}" value="{{cve_materia}}" id="gridCheck">
+                                                </div>
+                                          </td>
+                                    </tr>
+                                {{/each}}
+                                </tbody>
+                            </table>
+                         </div>
+
+                       </div>   
+                </div>
+    </div>
+</div>

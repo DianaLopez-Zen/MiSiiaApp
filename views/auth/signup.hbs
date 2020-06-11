@@ -1,0 +1,45 @@
+<div class="container p-4">
+  <div class="row">
+    <div class="col-md-4 mx-auto">
+    <div class="card bg-primary">
+      <div class="card text-center">
+        <div class="card-header bg-light">
+          <h3>Registrate al SIIA</h3>
+        </div>
+        <div class="card-body bg-primary">
+          <form action="/signup" method="POST">
+                <div class="form-group">
+              <input type="type" name="email" placeholder="email" class="form-control">
+            </div>
+             <div class="form-group">
+              <input type="type" name="fullname" placeholder="Fullname" class="form-control">
+            </div>
+             <div class="form-group">
+              <input type="text" name="semestre" placeholder="semestre" class="form-control">
+            </div>
+            <div class="form-group">
+            <select name="cve_carrera" type="input" class="form-control">
+            <option>To choose...</option>
+            {{#each carrera}}
+            <option value="{{cve_carrera}}">{{name_C}}</option>
+            {{/each}}
+            </select>
+            </div>
+            <div class="form-group">
+              <input type="text" name="username" placeholder="Numero de control" class="form-control">
+            </div>
+            
+            <div class="form-group">
+              <input type="password" name="password" placeholder="Password" class="form-control">
+            </div>
+            <div class="form-group">
+              <button class="btn btn-success btn-block">
+                SingIn
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
