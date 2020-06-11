@@ -1,5 +1,4 @@
-#Nombre de la aplicacion
-*MiSiia App.
+# MiSiia App
 Web app con nodejs, y javascript como 
 lenguaje de programación backend y mysql como base 
 de datos SQL. Puede seleccionar cursos , agregar cursos, y 
@@ -7,6 +6,9 @@ listar los datos (cursos). Esta aplicación de NodeJS
  hace uso del motor de plantillas Handlebars, Bootstrap y librerías de express para conexión a mysql 
 y para el acceso por login, en este proyecto se plantea 
 la creación de un sitio con una navegación dinamica.
+# Integrantes
+Diana Fernanda Lopez Zendejas
+Sandra Berenice Rodriguez Verdines
 
 # Funcionalidad
 *En la pagina principal se muestra un inicio a la app,en esta debemos selecionar un boton para poder utilizarla.
