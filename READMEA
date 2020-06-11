@@ -1,0 +1,24 @@
+MiSiia App.
+Web app con nodejs, y javascript como lenguaje de programación backend y mysql como base de datos SQL. Puede seleccionar cursos , agregar cursos, y listar los datos (cursos). Esta aplicación de NodeJS hace uso del motor de plantillas Handlebars, Bootstrap y librerías de express para conexión a mysql y para el acceso por login, en este proyecto se plantea la creación de un sitio con una navegación dinamica.
+
+Integrantes
+Diana Fernanda Lopez Zendejas Sandra Berenice Rodriguez Verdines
+
+Funcionalidad
+*En la pagina principal se muestra un inicio a la app,en esta debemos selecionar un boton para poder utilizarla. *La seleccion del usuario logueado muestra una nueva pagina(visualizaciones) con los cursos del usuario seleccionado. *Cuenta con un apartado para poder registrarnos, esto nos ayuda para poder utilizar al 100 esta aplicacaion. *Se permite registrar nuevos usuarios, estos datos se guardan en una base de datos. *Cuenta con un apartado especialmente para que el usuario puede agregra cursos siempre y cuando este loagueado,en esta utilizamos una consulta de la base de datos y la mandamos imprimir para que ahora si el alumno o usuario pueda ver las materias disponibles para seleccionar su horario. *El usuario puede ver su lista de los cursos que ha agregado (visualizacion).
+
+Editor de codigo.
+SublimeText.
+
+Base de datos
+Free MYSQL https://www.freemysqlhosting.net/
+
+Servicio.
+Zeit.co y Github
+
+Capturas del programa
+*Pantalla de Inicio WhatsApp Image 2020-06-11 at 2 17 42 PM *Pantalla de Logueo WhatsApp Image 2020-06-11 at 2 18 03 PM *Pantalla de Registro WhatsApp Image 2020-06-11 at 2 18 23 PM *Pantalla de seleccion una ves que ya estes logueado WhatsApp Image 2020-06-11 at 2 20 05 PM
+
+*Pantalla de las materias seleccionadas en esta pagina despues de dar de alta las materias pero que no supimos como hacer para que las mostrara WhatsApp Image 2020-06-11 at 3 46 40 PM
+
+*Pantalla de los 4 usuarios WhatsApp Image 2020-06-11 at 3 41 59 PM WhatsApp Image 2020-06-11 at 3 43 43 PM WhatsApp Image 2020-06-11 at 3 44 58 PM WhatsApp Image 2020-06-11 at 3 39 15 PM
