@@ -1,5 +1,4 @@
-#Nombre de la aplicacion
-*MiSiia App.
+# MiSiia App
 Web app con nodejs, y javascript como 
 lenguaje de programación backend y mysql como base 
 de datos SQL. Puede seleccionar cursos , agregar cursos, y 
